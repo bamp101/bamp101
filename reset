@@ -1,0 +1,5 @@
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(KeyPressed)
+    if KeyPressed == "g" then
+    game.Players.LocalPlayer.Character.Humanoid.Health = 0
+end
+end)
